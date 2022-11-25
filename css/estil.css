@@ -3,6 +3,7 @@
     font-family: mifuente;
     src:url(../fonts/hollow.ttf);
 }
+
 .titulo
 {
     color: #000000;
@@ -15,7 +16,7 @@ section
 }
 p, h1, h2, h3, .base
 {
-    color:#460909;
+    color:#881212;
     font-family: mifuente;
     text-align: center;
 }
@@ -37,23 +38,24 @@ th
     border-radius: 10px;
     box-shadow: 5px 5px 100px #460909;
     background-color: rgb(15, 15, 15);
-    margin-left:80px;
-    float:left; 
+    position: absolute;
+    left:80px;
+    top:160px;
     text-align: center;
 }
 #carreras
 {
     font-family: mifuente;
-    height:300px;
+    height:400px;
+    width: 1200px;
     border: 6px solid#752b2b;
     border-radius: 10px;
     box-shadow: 5px 5px 100px #460909;
-    float: left;
-    margin-top:80px;
-    margin-bottom:80px;
-    margin-left: 25px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+    position: absolute;
+    left:80px;
+    top:950px;
 }
 body
 {
@@ -61,16 +63,18 @@ body
 }
 img
 {
-    width:1100px;
-    height:740px;
-    float:right;  
-    margin-right:80px;
+    width:920px;
+    height:740px; 
+    margin-left:80px;
     margin-top:10px;
     border-radius: 20px;
+    position: absolute;
+    left:460px;
+    top:150px;
 }
 footer
 {
-    margin: auto;
+    margin-top: 100%;
     padding: 10px;
     border: 6px solid#752b2b;
     width:280px;
@@ -79,7 +83,7 @@ footer
     box-shadow: 5px 5px 10px #460909;
     color:#ffffff;
     font-family: mifuente;
-    float:left;
+    
     
 }
 
@@ -87,15 +91,15 @@ footer
 
 .redbull
 {
-    color:#250d92;
+    color:#391fad;
 }
 .astonmartin
 {
-    color:#053807;
+    color:#067209;
 }
 .ferrari
 {
-    color:#d12222;
+    color:#ff0000;
 }
 .mercedes
 {
@@ -111,7 +115,7 @@ footer
 }
 .alfaromeo
 {
-    color:#580000;
+    color:#990303;
 }
 .mclaren
 {
