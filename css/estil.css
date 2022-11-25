@@ -1,0 +1,165 @@
+@font-face
+{
+    font-family: mifuente;
+    src:url(../fonts/hollow.ttf);
+}
+.titulo
+{
+    color: #000000;
+    background-color: #831d1d;
+}
+section
+{
+    width:1820px;
+    height:1080px;
+}
+p, h1, h2, h3, .base
+{
+    color:#460909;
+    font-family: mifuente;
+    text-align: center;
+}
+table
+{
+    width:100%;
+}
+th
+{
+    height: 50px;
+    
+}
+#pilotos
+{
+    font-family: mifuente;
+    width:350px;
+    height:760px;
+    border: 6px solid#752b2b;
+    border-radius: 10px;
+    box-shadow: 5px 5px 100px #460909;
+    background-color: rgb(15, 15, 15);
+    margin-left:80px;
+    float:left; 
+    text-align: center;
+}
+#carreras
+{
+    font-family: mifuente;
+    height:300px;
+    border: 6px solid#752b2b;
+    border-radius: 10px;
+    box-shadow: 5px 5px 100px #460909;
+    float: left;
+    margin-top:80px;
+    margin-bottom:80px;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 14px;
+}
+body
+{
+    background-color:rgb(24, 22, 22);
+}
+img
+{
+    width:1100px;
+    height:740px;
+    float:right;  
+    margin-right:80px;
+    margin-top:10px;
+    border-radius: 20px;
+}
+footer
+{
+    margin: auto;
+    padding: 10px;
+    border: 6px solid#752b2b;
+    width:280px;
+    height:35px;
+    border-radius: 40px 20px;
+    box-shadow: 5px 5px 10px #460909;
+    color:#ffffff;
+    font-family: mifuente;
+    float:left;
+    
+}
+
+
+
+.redbull
+{
+    color:#250d92;
+}
+.astonmartin
+{
+    color:#053807;
+}
+.ferrari
+{
+    color:#d12222;
+}
+.mercedes
+{
+    color:#696666;
+}
+.williams
+{
+    color:#1556b6;
+}
+.alphatauri
+{
+    color:#ece4e4;
+}
+.alfaromeo
+{
+    color:#580000;
+}
+.mclaren
+{
+    color:#c76e1a;
+}
+.hass
+{
+    color:#ee8787;
+}
+.alpine
+{
+    color:#c679c9;
+}
+
+
+
+.Egulë
+{
+    color:#ffabff
+}
+.Larry
+{
+    color:#b1894d
+}
+.Goten
+{
+    color:#df9712
+}
+.Aida
+{
+    color:#7a20c4
+}
+.Lakasito
+{
+    color:#f8f5f8
+}
+.Nacola
+{
+    color:#574f4f
+}
+.Jason
+{
+    color:#8a1d19
+}
+.Makakiño
+{
+    color:#5e3d0b
+}
+
+
+
