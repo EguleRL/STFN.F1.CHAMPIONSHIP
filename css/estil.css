@@ -6,15 +6,11 @@
 
 .titulo
 {
-    color: #000000;
+    color: #ffffff;
     background-color: #831d1d;
 }
-section
-{
-    width:1820px;
-    height:1080px;
-}
-p, h1, h2, h3, .base
+
+h1, h2
 {
     color:#881212;
     font-family: mifuente;
@@ -24,20 +20,32 @@ table
 {
     width:100%;
 }
-th
+p
 {
-    height: 50px;
-    
+    width: 300px;
+    height: 80px;
+    color: #ffffff;
+    border: 3px solid#ffa3a3;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #460909;
+    background-color: rgb(15, 15, 15);
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 10px;
+    position: relative;
+    left:500px;
+    top:432px;
 }
 #pilotos
 {
     font-family: mifuente;
     width:350px;
     height:760px;
-    border: 6px solid#752b2b;
+    border: 5px solid#ffa3a3;
     border-radius: 10px;
-    box-shadow: 5px 5px 100px #460909;
+    box-shadow: 5px 5px 10px #460909;
     background-color: rgb(15, 15, 15);
+    font-size: 12px;
     position: absolute;
     left:80px;
     top:160px;
@@ -48,9 +56,9 @@ th
     font-family: mifuente;
     height:400px;
     width: 1200px;
-    border: 6px solid#752b2b;
+    border: 6px solid#ffa3a3;
     border-radius: 10px;
-    box-shadow: 5px 5px 100px #460909;
+    box-shadow: 5px 5px 10px #460909;
     text-align: center;
     font-size: 12px;
     position: absolute;
@@ -61,16 +69,33 @@ body
 {
     background-color:rgb(24, 22, 22);
 }
-img
+.sabado
 {
-    width:920px;
-    height:740px; 
+    width:575px;
+    height:350px; 
     margin-left:80px;
     margin-top:10px;
     border-radius: 20px;
     position: absolute;
-    left:460px;
+    left:788px;
+    top:550px;
+    border: 1px solid #ffa3a3;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px #460909;
+}
+.f1
+{
+    width:935px;
+    height:350px; 
+    margin-left:80px;
+    margin-top:10px;
+    border-radius: 20px;
+    position: absolute;
+    left:440px;
     top:150px;
+    border: 1px solid#ffa3a3;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px #460909;
 }
 footer
 {
